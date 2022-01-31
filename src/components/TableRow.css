@@ -1,0 +1,12 @@
+.country-row {
+  border: 1px solid black;
+}
+.country-name {
+  width: 18rem;
+}
+.country-region {
+  width: 8rem;
+}
+.country-area {
+  width: 7rem;
+}

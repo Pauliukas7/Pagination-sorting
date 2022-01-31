@@ -1,0 +1,37 @@
+.main-header {
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+  height: 4rem;
+  display: flex;
+  background-color: #d7ffd2;
+  justify-content: start;
+  align-items: flex-end;
+}
+.filters-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 4rem;
+}
+
+.reset-container {
+  margin-bottom: 1rem;
+  margin-right: 6rem;
+}
+
+.filter-button {
+  background-color: #2ebd1f;
+  border-color: transparent;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  background-color: #43ec31;
+}

@@ -1,0 +1,16 @@
+table {
+  border: 1px solid black;
+  background-color: #9df694;
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+
+th {
+  padding-inline: 10px;
+  border-radius: 5px;
+  background-color: #1bb10b;
+}
+img {
+  height: 15px;
+  cursor: pointer;
+}
