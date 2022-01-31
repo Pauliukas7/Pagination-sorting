@@ -1,27 +1,25 @@
+.pagination-container {
+  display: flex;
+  justify-content: start;
+}
 ul {
   margin-top: 2px;
   list-style: none;
   display: flex;
+  margin-right: 15px;
 }
 .page-number {
   font-weight: bold;
   cursor: pointer;
   border-radius: 5px;
   width: 20px;
-  margin-inline: 2px;
+  margin-right: 2px;
   text-align: center;
   border: 1px solid green;
   border-color: transparent;
 }
 ul li:hover {
   background-color: #22c511;
-}
-
-.previous-next {
-  display: flex;
-  justify-content: center;
-
-  width: 25rem;
 }
 
 .prev,
@@ -31,10 +29,11 @@ ul li:hover {
   padding: 2px;
   font-size: 17px;
   padding: 5px;
+  border-radius: 5px;
 }
 .prev:hover,
 .next:hover {
-  color: #3f563c;
+  background-color: #22c511;
 }
 .active {
   border-color: green;

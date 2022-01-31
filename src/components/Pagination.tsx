@@ -33,7 +33,11 @@ export const Pagination: React.FC = () => {
     pageNumbers.push(i);
   }
   return (
-    <div>
+    <div className="pagination-container">
+      <h2 className="prev" onClick={prevPageHandler}>
+        {"<"}
+      </h2>
+
       <ul>
         {pageNumbers.map((number) => (
           <li
@@ -47,18 +51,10 @@ export const Pagination: React.FC = () => {
           </li>
         ))}
       </ul>
-      <div className="previous-next">
-        {currentPage > 1 && (
-          <h2 className="prev" onClick={prevPageHandler}>
-            Previous Page
-          </h2>
-        )}
-        {currentPage < Math.ceil(totalRecords / 20) && (
-          <h2 className="next" onClick={nextPageHandler}>
-            Next Page
-          </h2>
-        )}
-      </div>
+
+      <h2 className="next" onClick={nextPageHandler}>
+        {">"}
+      </h2>
     </div>
   );
 };
