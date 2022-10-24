@@ -3,6 +3,7 @@ import { tableActions } from "../store/table-slice";
 import "./Header.css";
 
 export const Header: React.FC = () => {
+  console.log("test");
   const dispatch = useDispatch();
   const filterByAreaHandler = () => {
     dispatch(tableActions.filterByArea());
